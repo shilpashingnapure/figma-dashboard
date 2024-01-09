@@ -99,7 +99,7 @@ function Content() {
                   </th>
                   <th>Order amount</th>
                   <th className="flex">
-                    Transaction fees <img src="/images/info.svg" alt="" />
+                    Transaction fees <img src="/images/Info.svg" alt="" />
                   </th>
                 </tr>
               </thead>
