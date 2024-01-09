@@ -1,0 +1,135 @@
+.nav{
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .9rem .7rem;
+    background: #1E2640;
+
+}
+
+.header{
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        margin-bottom: 1rem;
+        padding: 0 .5rem;
+
+        & > div{
+            display: flex;
+            gap:10px;
+
+            img{
+                object-fit: contain;
+                border-radius: 5px;
+                width: 60px;
+                height: 60px;
+            }
+    
+            div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap:3px;
+            }
+    
+            h4{
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 22px;
+            }
+    
+            span{
+                font-size: 13px;
+                line-height: 16px;
+                color: #FFFFFF;
+                border-bottom: 1px solid #d3d4d9;
+                font-weight: 400;
+                color: #d3d4d9;
+    
+    
+            }
+        }
+
+        
+
+
+    
+        
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        font-weight: 500;
+        line-height: 20px;
+        color: #d3d4d9;
+
+
+        li{
+            display: flex;
+            align-items: center;
+            gap:.8rem;
+            padding: 10px 16px;
+            border: 1px solid transparent;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #FFFFFF1A;
+                border-radius: 4px;
+            }
+            
+        }
+
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+}
+
+.active{
+    background: #FFFFFF1A;
+    border-radius: 4px;
+    color: #fff;
+
+}
+
+.footer{
+    background-color: #353c53;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-radius: 4px;
+    padding: 6px 12px;
+
+    & > div:first-child{
+        background-color:#FFFFFF1A;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+
+    }
+
+    span{
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #d3d4d9;
+
+    }
+
+    h3{
+        font-weight: 500;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    
+}
