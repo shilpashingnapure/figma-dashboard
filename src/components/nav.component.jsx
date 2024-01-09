@@ -5,7 +5,7 @@ function Navbar() {
       <div className="header">
         <div className="logo">
           <div>
-            <img src="image.svg" alt="" />
+            <img src="./images/logo.svg" alt="" />
             <div>
               <h4>Nishyan</h4>
               <span>Visit store</span>
